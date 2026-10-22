@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACahyaRenameDl 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: ACahya\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "plugins.generic.acahyarenamedl.displayName"
+msgstr "ACahya Submission File Download Renamer"
+
+msgid "plugins.generic.acahyarenamedl.description"
+msgstr "Restores classic OJS 3.2 submission file download naming convention (submissionId-genre-fileId-revision-stage-date.ext) or custom patterns when downloading files."
+
+msgid "plugins.generic.acahyarenamedl.settings.title"
+msgstr "Submission File Rename Settings"
+
+msgid "plugins.generic.acahyarenamedl.settings.description"
+msgstr "Configure how downloaded submission file names are structured across editorial workflows and downloads."
+
+msgid "plugins.generic.acahyarenamedl.settings.enablePlugin"
+msgstr "Enable Automatic File Renaming"
+
+msgid "plugins.generic.acahyarenamedl.settings.enablePluginDescription"
+msgstr "When enabled, submission files downloaded by editors, reviewers, authors, or readers will be renamed automatically according to the configured pattern."
+
+msgid "plugins.generic.acahyarenamedl.settings.preset"
+msgstr "Naming Pattern Preset"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.classic32"
+msgstr "Classic OJS 3.2 (Recommended: {$submissionId}-{$genre}-{$fileId}-{$revision}-{$fileStage}-{$date}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.idOriginalName"
+msgstr "Submission ID + Original Filename ({$submissionId}-{$originalName}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.idGenreOriginalName"
+msgstr "Submission ID + Genre + Original Filename ({$submissionId}-{$genre}-{$originalName}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.idAuthorGenreDate"
+msgstr "Submission ID + Author + Genre + Date ({$submissionId}-{$authorName}-{$genre}-{$date}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.custom"
+msgstr "Custom Pattern (Define your own pattern below)"
+
+msgid "plugins.generic.acahyarenamedl.settings.namingPattern"
+msgstr "Custom File Naming Pattern"
+
+msgid "plugins.generic.acahyarenamedl.settings.namingPatternDescription"
+msgstr "Available tokens: {$submissionId}, {$genre}, {$fileId}, {$submissionFileId}, {$revision}, {$fileStage}, {$date}, {$authorName}, {$originalName}, {$ext}"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces"
+msgstr "Space Handling in Filename"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces.hyphen"
+msgstr "Replace spaces with hyphens (-) (e.g. Article-Text)"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces.underscore"
+msgstr "Replace spaces with underscores (_) (e.g. Article_Text)"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces.keep"
+msgstr "Keep spaces as original"
+
+msgid "plugins.generic.acahyarenamedl.settings.applyToGalleys"
+msgstr "Apply to Published Article Galleys"
+
+msgid "plugins.generic.acahyarenamedl.settings.applyToGalleysDescription"
+msgstr "Enable this if you also want readers downloading published PDFs/galleys on the frontend to receive renamed files."
+
+msgid "plugins.generic.acahyarenamedl.settings.saved"
+msgstr "Settings have been successfully saved."

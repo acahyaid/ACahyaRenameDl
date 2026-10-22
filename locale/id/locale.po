@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ACahyaRenameDl 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: ACahya\n"
+"Language-Team: Indonesian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+
+msgid "plugins.generic.acahyarenamedl.displayName"
+msgstr "ACahya Ubah Nama File Download Submission"
+
+msgid "plugins.generic.acahyarenamedl.description"
+msgstr "Mengembalikan format penamaan file download submission seperti pada OJS 3.2 (submissionId-genre-fileId-revision-stage-date.ext) atau format kustom saat mengunduh file submission."
+
+msgid "plugins.generic.acahyarenamedl.settings.title"
+msgstr "Pengaturan Format Nama File Download"
+
+msgid "plugins.generic.acahyarenamedl.settings.description"
+msgstr "Atur pola format nama file saat diunduh oleh Editor, Reviewer, Author, maupun Pembaca."
+
+msgid "plugins.generic.acahyarenamedl.settings.enablePlugin"
+msgstr "Aktifkan Perubahan Nama File Otomatis"
+
+msgid "plugins.generic.acahyarenamedl.settings.enablePluginDescription"
+msgstr "Jika diaktifkan, setiap file submission yang diunduh akan otomatis diubah namanya sesuai format yang ditentukan."
+
+msgid "plugins.generic.acahyarenamedl.settings.preset"
+msgstr "Preset Pola Nama File"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.classic32"
+msgstr "Klasik OJS 3.2 (Direkomendasikan: {$submissionId}-{$genre}-{$fileId}-{$revision}-{$fileStage}-{$date}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.idOriginalName"
+msgstr "ID Submission + Nama Asli File ({$submissionId}-{$originalName}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.idGenreOriginalName"
+msgstr "ID Submission + Genre + Nama Asli File ({$submissionId}-{$genre}-{$originalName}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.idAuthorGenreDate"
+msgstr "ID Submission + Author + Genre + Tanggal ({$submissionId}-{$authorName}-{$genre}-{$date}.{$ext})"
+
+msgid "plugins.generic.acahyarenamedl.settings.preset.custom"
+msgstr "Pola Kustom (Tentukan sendiri pada kolom di bawah)"
+
+msgid "plugins.generic.acahyarenamedl.settings.namingPattern"
+msgstr "Pola Kustom Format File"
+
+msgid "plugins.generic.acahyarenamedl.settings.namingPatternDescription"
+msgstr "Variabel yang tersedia: {$submissionId}, {$genre}, {$fileId}, {$submissionFileId}, {$revision}, {$fileStage}, {$date}, {$authorName}, {$originalName}, {$ext}"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces"
+msgstr "Penanganan Spasi pada Nama File"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces.hyphen"
+msgstr "Ganti spasi dengan tanda hubung (-) (contoh: Article-Text)"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces.underscore"
+msgstr "Ganti spasi dengan garis bawah (_) (contoh: Article_Text)"
+
+msgid "plugins.generic.acahyarenamedl.settings.replaceSpaces.keep"
+msgstr "Pertahankan spasi asli"
+
+msgid "plugins.generic.acahyarenamedl.settings.applyToGalleys"
+msgstr "Terapkan pada Download Galley Publik / Artikel Frontend"
+
+msgid "plugins.generic.acahyarenamedl.settings.applyToGalleysDescription"
+msgstr "Centang opsi ini jika file artikel (PDF/DOC) yang diunduh pembaca di halaman artikel publik juga ingin menggunakan format penamaan ini."
+
+msgid "plugins.generic.acahyarenamedl.settings.saved"
+msgstr "Pengaturan berhasil disimpan."

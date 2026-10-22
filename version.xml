@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+<!--
+  * plugins/generic/ACahyaRenameDl/version.xml
+  *
+  * Copyright (c) 2026 ACahya
+  * Distributed under the GNU GPL v3.
+  *
+  * Plugin version information for ACahyaRenameDl.
+  -->
+<version>
+	<application>ACahyaRenameDl</application>
+	<type>plugins.generic</type>
+	<release>1.0.0.0</release>
+	<tag>v1.0.0</tag>
+	<date>2026-10-22</date>
+	<lazy-load>0</lazy-load>
+	<class>APP\plugins\generic\ACahyaRenameDl\ACahyaRenameDlPlugin</class>
+</version>
